@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace ptlis\Tests\BarcodeValidation\Barcodes;
+namespace ptlis\Tests\Barcode\Barcodes;
 
-use ptlis\BarcodeValidation\Barcodes\ISBN10;
-use ptlis\BarcodeValidation\BarcodeTypeEnum;
+use ptlis\Barcode\Barcodes\ISBN10;
+use ptlis\Barcode\BarcodeTypeEnum;
 
 /**
- * @covers \ptlis\BarcodeValidation\Barcodes\ISBN10
+ * @covers \ptlis\Barcode\Barcodes\ISBN10
  */
 final class ISBN10Test extends AbstractBarcodeTestCase
 {

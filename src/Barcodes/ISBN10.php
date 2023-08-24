@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace ptlis\BarcodeValidation\Barcodes;
+namespace ptlis\Barcode\Barcodes;
 
-use ptlis\BarcodeValidation\BarcodeTypeEnum;
-use ptlis\BarcodeValidation\Interfaces\CalculateChecksumInterface;
-use ptlis\BarcodeValidation\Interfaces\TypeInterface;
-use ptlis\BarcodeValidation\Interfaces\ValidatorInterface;
+use ptlis\Barcode\BarcodeTypeEnum;
+use ptlis\Barcode\Interfaces\CalculateChecksumInterface;
+use ptlis\Barcode\Interfaces\TypeInterface;
+use ptlis\Barcode\Interfaces\ValidatorInterface;
 
 /**
  * Validator for ISBN-10 barcodes.

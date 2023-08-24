@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ptlis\BarcodeValidation\Barcodes;
+namespace ptlis\Barcode\Barcodes;
 
 trait NormalizeISBNTrait
 {

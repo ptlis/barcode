@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace ptlis\Tests\BarcodeValidation;
+namespace ptlis\Tests\Barcode;
 
 use PHPUnit\Framework\TestCase;
-use ptlis\BarcodeValidation\Validator;
+use ptlis\Barcode\Validator;
 
 /**
- * @covers \ptlis\BarcodeValidation\Validator
+ * @covers \ptlis\Barcode\Validator
  */
 final class ValidatorTest extends TestCase
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ptlis\BarcodeValidation;
+namespace ptlis\Barcode;
 
 enum BarcodeTypeEnum: string
 {

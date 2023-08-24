@@ -6,12 +6,12 @@
     "keywords": ["barcode", "barcodes", "validation", "checksum", "EAN", "EAN8", "EAN-8", "EAN13", "EAN-13", "ISBN", "ISBN10", "ISBN-10", "ISBN13", "ISBN-13", "UPC", "UPCA", "UPC-A", "GTIN", "SSC"],
     "autoload": {
         "psr-4": {
-            "ptlis\\BarcodeValidation\\": "src/"
+            "ptlis\\Barcode\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ptlis\\Tests\\BarcodeValidation\\": "tests/"
+            "ptlis\\Tests\\Barcode\\": "tests/"
         }
     },
     "authors": [

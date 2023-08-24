@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace ptlis\BarcodeValidation\Barcodes;
+namespace ptlis\Barcode\Barcodes;
 
-use ptlis\BarcodeValidation\BarcodeTypeEnum;
+use ptlis\Barcode\BarcodeTypeEnum;
 
 /**
  * Validator for UPC-A barcodes.

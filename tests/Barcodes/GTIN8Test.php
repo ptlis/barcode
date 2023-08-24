@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace ptlis\Tests\BarcodeValidation\Barcodes;
+namespace ptlis\Tests\Barcode\Barcodes;
 
-use ptlis\BarcodeValidation\Barcodes\GTIN8;
-use ptlis\BarcodeValidation\BarcodeTypeEnum;
+use ptlis\Barcode\Barcodes\GTIN8;
+use ptlis\Barcode\BarcodeTypeEnum;
 
 /**
- * @covers \ptlis\BarcodeValidation\Barcodes\GTIN8
- * @covers \ptlis\BarcodeValidation\Barcodes\BaseGTINBarcode
+ * @covers \ptlis\Barcode\Barcodes\GTIN8
+ * @covers \ptlis\Barcode\Barcodes\BaseGTINBarcode
  */
 final class GTIN8Test extends AbstractBarcodeTestCase
 {

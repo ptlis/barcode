@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace ptlis\Tests\BarcodeValidation\Barcodes;
+namespace ptlis\Tests\Barcode\Barcodes;
 
 use PHPUnit\Framework\TestCase;
-use ptlis\BarcodeValidation\BarcodeTypeEnum;
-use ptlis\BarcodeValidation\Interfaces\CalculateChecksumInterface;
-use ptlis\BarcodeValidation\Interfaces\TypeInterface;
-use ptlis\BarcodeValidation\Interfaces\ValidatorInterface;
+use ptlis\Barcode\BarcodeTypeEnum;
+use ptlis\Barcode\Interfaces\CalculateChecksumInterface;
+use ptlis\Barcode\Interfaces\TypeInterface;
+use ptlis\Barcode\Interfaces\ValidatorInterface;
 
 abstract class AbstractBarcodeTestCase extends TestCase
 {

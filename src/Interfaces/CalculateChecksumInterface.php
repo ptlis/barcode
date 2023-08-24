@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ptlis\BarcodeValidation\Interfaces;
+namespace ptlis\Barcode\Interfaces;
 
 interface CalculateChecksumInterface
 {

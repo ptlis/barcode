@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace ptlis\BarcodeValidation;
+namespace ptlis\Barcode;
 
-use ptlis\BarcodeValidation\Barcodes\EAN13;
-use ptlis\BarcodeValidation\Barcodes\EAN8;
-use ptlis\BarcodeValidation\Barcodes\UPCA;
-use ptlis\BarcodeValidation\Interfaces\TypeInterface;
-use ptlis\BarcodeValidation\Interfaces\ValidatorInterface;
+use ptlis\Barcode\Barcodes\EAN13;
+use ptlis\Barcode\Barcodes\EAN8;
+use ptlis\Barcode\Barcodes\UPCA;
+use ptlis\Barcode\Interfaces\TypeInterface;
+use ptlis\Barcode\Interfaces\ValidatorInterface;
 
 final readonly class Validator implements ValidatorInterface
 {

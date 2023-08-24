@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace ptlis\BarcodeValidation\Interfaces;
+namespace ptlis\Barcode\Interfaces;
 
-use ptlis\BarcodeValidation\BarcodeTypeEnum;
+use ptlis\Barcode\BarcodeTypeEnum;
 
 interface TypeInterface
 {

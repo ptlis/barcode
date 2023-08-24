@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace ptlis\Tests\BarcodeValidation\Barcodes;
+namespace ptlis\Tests\Barcode\Barcodes;
 
-use ptlis\BarcodeValidation\Barcodes\SSCC;
-use ptlis\BarcodeValidation\BarcodeTypeEnum;
+use ptlis\Barcode\Barcodes\SSCC;
+use ptlis\Barcode\BarcodeTypeEnum;
 
 /**
- * @covers \ptlis\BarcodeValidation\Barcodes\SSCC
- * @covers \ptlis\BarcodeValidation\Barcodes\BaseGTINBarcode
+ * @covers \ptlis\Barcode\Barcodes\SSCC
+ * @covers \ptlis\Barcode\Barcodes\BaseGTINBarcode
  */
 final class SSCCTest extends AbstractBarcodeTestCase
 {
